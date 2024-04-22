@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18f90970dec39294fb700a29df4e4110, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  <HalfRoadSize>k__BackingField: 5
+  <CarSettings>k__BackingField:
+    <CarPrefab>k__BackingField: {fileID: -2328114240683967767, guid: 548ede655e0fa44439a355336f9aa34f,
+      type: 3}
+    <Speed>k__BackingField: 10
+    <StopForceOnFinish>k__BackingField: 2
+    <Health>k__BackingField: 10
+  <BulletSettings>k__BackingField:
+    <BulletPrefab>k__BackingField: {fileID: 9070492104879412243, guid: b8d253161aa480f4bbd74c8497b28db6,
+      type: 3}
+    <Damage>k__BackingField: 1
+    <LifeTime>k__BackingField: 7
+    <Speed>k__BackingField: 100
+    <ShootDelay>k__BackingField: 0.3
+  <EnemySettings>k__BackingField:
+    <EnemyPrefab>k__BackingField: {fileID: 4492896031691922576, guid: 014d2158fbb789e4bbad170106bb8cca,
+      type: 3}
+    <Speed>k__BackingField: 10
+    <RotateSpeed>k__BackingField: 15
+    <AgroDistance>k__BackingField: 30
+    <Damage>k__BackingField: 1
+    <Health>k__BackingField: 2
+    <StartSpawnCount>k__BackingField: 10
+    <SpawnDelay>k__BackingField: 1
+    <MinSpawnDistance>k__BackingField: 40
+    <MaxSpawnDistance>k__BackingField: 100
